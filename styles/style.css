@@ -62,7 +62,7 @@ body{
 
 .apresentacao__links{
     display: flex;
-    flex-direction:;
+    flex-direction:row;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
@@ -87,8 +87,8 @@ body{
     color: var(--cor-dois);
     font-family: var(--fonte-dois);
 }
-.apresentacao__links__link:hover{
-    background-color: #272727;
+.apresentacao__links__navegacao:hover{
+    background-color: var(--cor-quatro);
 }
 .apresentacao__img{
     width: 50%;
